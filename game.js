@@ -13,7 +13,7 @@ var losingScore;
 var winningMessage;
 var won = false;
 var currentScore = 0;
-var winningScore = 80;
+var winningScore = 100 ;
 
 // add collectable items to the game
 function addItems() {
@@ -93,7 +93,7 @@ window.onload = function () {
   
   // before the game begins
   function preload() {
-    game.stage.backgroundColor = '#5db1ad';
+    game.stage.backgroundColor = '#008000';
     
     //Load images
     game.load.image('platform', 'assets/platform_1.png');
